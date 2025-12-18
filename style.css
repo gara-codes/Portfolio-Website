@@ -1,0 +1,369 @@
+body{
+    padding: 0;
+    margin:0;
+    overflow-x: hidden;
+
+}
+
+#menubar{
+    background-color:darkcyan;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    font-size: large;
+}
+
+#menubar a{
+    float:left;
+    display: block;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+    padding-top: 12px;
+    
+    
+   
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px 90px;
+  background-color: darkslategray;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: whitesmoke;
+  margin-bottom: 35px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0 8px;
+}
+
+.btn.primary {
+  background: #222;
+  color: white;
+}
+
+.btn.secondary {
+  background: #e5e5e5;
+  color: #222;
+}
+
+/* Projects Preview */
+.projects-preview {
+  padding: 70px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.projects-preview h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* Cards */
+.card {
+  background: #222;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+ 
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: white;
+  font-size: 1rem;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+#image{
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+    display: flex; /* enable flexbox */
+    left: 0;
+    padding: 20px;
+    align-items: flex-start; /* align items at the top */
+    gap: 10px; /* spacing between image and text */
+}
+
+#image h3{
+    text-align: center;
+    top: 0;
+}
+
+#image img{
+    
+    width: 40%;
+   
+}
+
+#image .text{
+    flex: 1; /* take up remaining space */
+    font-size:xx-large;
+    
+}
+
+#projectintro{
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+    left: 0;
+    padding: 20px 20px 0 20px; 
+    margin-top: 40px;
+    min-height: 100vh; /* 👈 ensures full screen height */
+    
+    
+    
+    
+}
+
+#projectintro p{
+    margin: 0;
+    padding: 0;
+}
+ #projectintro h2{
+    text-align: center;
+}
+
+#projectintro h3{
+    text-align: center;
+    top: 0;
+}
+
+#projectintro p{
+    text-align: center;
+}
+
+.project-info{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    width: 60%;
+    display: block;
+    margin: 40px auto;
+    background-color: darkcyan;
+}
+
+#projectlist{
+    margin-top: 0px;
+    background-color: darkslategray;
+    
+    
+}
+
+
+.project-info img{
+    float: left;
+    height: 40px;
+    margin: 10px;
+}
+
+.project-info p{
+    text-align: left;
+}
+
+.project-info h3{
+    text-align: left;
+}
+
+
+.project-info .right{
+    float: right;
+    height: 40px;
+}
+
+#contactme{
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: large;
+    min-height: 100vh;
+    
+}
+
+#contacttext h3{
+    text-align: center;
+}
+
+#contacttext p{
+    text-align: center;
+    font-size: x-large;
+}
+
+#informationbox{
+    background: darkcyan;
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    margin: 10px 0;
+}
+
+textarea{
+    width: 100%;
+    height: 55px;
+    margin: 10px 0;
+}
+
+button{
+    width: 100%;
+    color: black;
+    height: 30px;
+}
+
+#socials h3{
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+
+.social-icons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social-icons img{
+    width:50px;
+    height: auto;
+
+
+}
+
+#ProjectMain{
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    
+    min-height: 100vh;
+    min-width: 300px;
+    
+}
+
+
+
+#ProjectMain h2{
+    text-align: center;
+}
+
+#ProjectMain img{
+  display: block;
+  margin: 0 auto;
+}
+
+#ProjectMain p{
+   font-size: x-large;
+}
+
+#Main{
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: large;
+    min-height: 100vh;
+    
+
+}
+
+.descriptions{
+    text-align: center;
+}
+
+.descriptions img{
+    margin: 0 40px;
+}
+
+.descriptions2{
+    text-align: center;
+}
+
+.descriptions2 img{
+    margin-left: 0px;
+    width: 95%;
+}
+
+#Pages a{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#Pages2 a{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#Pages2 img{
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
