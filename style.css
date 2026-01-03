@@ -322,9 +322,7 @@ button{
     text-align: center;
 }
 
-.descriptions img{
-    margin: 0 40px;
-}
+
 
 .descriptions2{
     text-align: center;
@@ -354,7 +352,17 @@ button{
     width: 100%;
 }
 
+.FlexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    
+}
 
+#ProjectMain .FlexContainer img {
+    margin: 0;
+}
 
 
 
